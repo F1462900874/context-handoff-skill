@@ -53,14 +53,6 @@ After installation, restart Codex if needed so the skill is rediscovered.
 
 This repository has been verified with the Codex GitHub skill installer.
 
-At the time of verification, the repository default branch is `master`, so the install command should include `--ref main`.
-
-Example:
-
-```bash
-python install-skill-from-github.py --repo F1462900874/context-handoff-skill --path context-handoff --ref main --method download
-```
-
 If you use the installer skill or script directly, prefer `--method download` for public installs.
 
 Restart Codex to pick up new skills.
