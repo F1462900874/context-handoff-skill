@@ -1,0 +1,6 @@
+interface:
+  display_name: "Context Handoff"
+  short_description: "Create continuation-ready task handoffs"
+  default_prompt: "Use $context-handoff to generate a concise handoff for this task."
+policy:
+  allow_implicit_invocation: false
